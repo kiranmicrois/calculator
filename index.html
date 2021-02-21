@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="output-screen">
+            <div class="history"></div>
+            <div class="result"></div>
+
+        </div>
+        <div class="keyboard">
+            <button class="size" id="remove" onclick="remove()">AC</button>
+            <button onclick="backSpace()">DEL</button>
+            <button id="operator" onclick="operator('/')">÷</button>
+            <button id="num7"  onclick="num(7)">7</button>
+            <button id="num8"  onclick="num(8)">8</button>
+            <button id="num9"  onclick="num(9)">9</button>
+            <button id="operator" onclick="operator('*')">*</button>
+            <button onclick="num(4)">4</button>
+            <button onclick="num(5)">5</button>
+            <button onclick="num(6)">6</button>
+            <button id="operator" onclick="operator('-')">-</button>
+            <button onclick="num(1)">1</button>
+            <button onclick="num(2)">2</button>
+            <button onclick="num(3)">3</button>
+            <button id="operator" onclick="operator('+')">+</button>
+            <button onclick="decimal('.')">.</button>
+            <button onclick="num(0)">0</button>
+            <button class="size" onclick="calculate()">=</button>
+           
+            
+            
+            
+            
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
